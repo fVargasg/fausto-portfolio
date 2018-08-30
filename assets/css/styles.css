@@ -185,7 +185,7 @@ h6 {
   padding: 0;
 }
 h1 {
-  font-size: 45px;
+  font-size: 48px;
   line-height: 50px;
 }
 h2 {
@@ -209,6 +209,10 @@ h6 {
   line-height: 23px;
 }
 
+.list-unstyled  li label {
+  width: 18%;
+  text-align: center;
+}
 
 /**
 * Text size
@@ -342,6 +346,9 @@ h6 {
 }
 .font-weight-400 {
   font-weight: 400 !important;
+}
+.font-weight-500 {
+  font-weight: 500 !important;
 }
 .font-weight-600 {
   font-weight: 600 !important;
