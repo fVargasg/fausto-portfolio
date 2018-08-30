@@ -1,0 +1,187 @@
+/*------------------------------------*\
+    Typography
+\*------------------------------------*/
+
+/**
+* Text color
+*/
+
+.text-color {
+  color: #ff4081 !important;
+}
+
+
+/**
+* Text highlight
+*/
+
+.text-highlight {
+  background-color: #ff4081;
+}
+
+
+/**
+* Text underline
+*/
+
+.text-underline {
+  border-bottom: 4px solid #ff4081;
+}
+
+/**
+* Background color
+*/
+
+.background-color {
+  background-color: #ff4081 !important;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Preloader
+\*------------------------------------*/
+
+#jpreBar {
+  background-color: #ff4081;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Header
+\*------------------------------------*/
+
+.header .logo {
+  background-color: #ff4081;
+}
+
+.header .logo span:before {
+  background-color: #ff4081;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Navigation
+\*------------------------------------*/
+
+@media (max-width: 991px) {
+  .navbar .nav > li.active > a {
+    color: #ff4081;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar .nav > li > a:before {
+    background-color: #ff4081;
+  }
+}
+
+
+/**
+* Nav trigger - close
+*/
+
+.nav-trigger.nav-trigger-close {
+  background-color: #ff4081;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section
+\*------------------------------------*/
+
+.section .section-title h2.has-sideline:before,
+.section .section-title h3.has-sideline:before,
+.section .section-title h4.has-sideline:before,
+.section .section-title h5.has-sideline:before,
+.section .section-title h6.has-sideline:before,
+.section .section-title span.has-sideline:before {
+  background-color: #ff4081;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Profile
+\*------------------------------------*/
+
+/**
+* Profile image
+*/
+
+.profile-image .image-wraper:before {
+  border-top: 2px solid #ff4081;
+  border-left: 2px solid #ff4081;
+}
+
+.profile-image .image-wraper:after {
+  border-right: 2px solid #ff4081;
+  border-bottom: 2px solid #ff4081;
+}
+
+
+/**
+* Profile detail
+*/
+
+.profile-detail .line:before,
+.profile-detail .line:after {
+  background-color: #ff4081;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Projects
+\*------------------------------------*/
+
+.projects > .inner-content:before {
+  background-color: #ff4081;
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Work Process
+\*------------------------------------*/
+
+@media (min-width: 768px) {
+  .work-process .item:before {
+    background-color: #ff4081;
+  }
+}
+
+@media (min-width: 768px) {
+  .work-process .item:last-child:after {
+    background-color: #ff4081;
+  }
+}
+
+
+
+
+
+/*------------------------------------*\
+    Section - Contact
+\*------------------------------------*/
+
+.contact > .col h3:before {
+  background-color: #ff4081;
+}
