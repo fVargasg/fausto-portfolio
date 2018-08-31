@@ -214,6 +214,7 @@ h6 {
   text-align: center;
 }
 
+
 /**
 * Text size
 */
@@ -3102,4 +3103,7 @@ i-rounded {
   width: 60px;
   height: 60px;
   line-height: 60px !important;
+}
+.height-2 {
+  height: 2px;
 }
